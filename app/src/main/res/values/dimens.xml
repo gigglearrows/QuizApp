@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="marginHuge">24dp</dimen>
+    <dimen name="marginQ">16dp</dimen>
+    <dimen name="viewHeight">2dp</dimen>
+    <dimen name="listItemMargin">8dp</dimen>
+    <dimen name="dividerHeight">10dp</dimen>
+    <dimen name="mediumMargin">8dp</dimen>
+    <dimen name="smallMargin">4dp</dimen>
+    <dimen name="negativeSmallMargin">-4dp</dimen>
+</resources>

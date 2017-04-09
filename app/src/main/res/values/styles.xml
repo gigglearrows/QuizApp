@@ -1,0 +1,50 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="question" >
+        <item name="android:textColor">@android:color/black</item>
+        <item name="android:textAppearance">?android:attr/textAppearanceMedium</item>
+    </style>
+    <style name="questionLinear" >
+        <item name="android:layout_marginBottom">@dimen/marginQ</item>
+    </style>
+    <style name="answer" >
+        <item name="android:textColor">@color/answerText</item>
+        <item name="android:textAppearance">?android:attr/textAppearanceSmall</item>
+    </style>
+    <style name="text_input" >
+        <item name="android:textColor">@color/answerText</item>
+        <item name="android:textAppearance">?android:attr/textAppearanceSmall</item>
+    </style>
+
+    <style name="startTitle" >
+        <item name="android:textColor">@color/colorPrimary</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textAppearance">?android:attr/textAppearanceLarge</item>
+        <item name="android:layout_marginBottom">@dimen/listItemMargin</item>
+        <item name="android:background">@drawable/listview_card_bg</item>
+        <item name="android:shadowColor">@color/colorAccent</item>
+        <item name="android:shadowRadius">1</item>
+        <item name="android:padding">16dp</item>
+    </style>
+
+    <style name="truefalse_btn" >
+        <item name="android:textSize">24sp</item>
+        <item name="android:minHeight">0dp</item>
+        <item name="android:minWidth">0dp</item>
+        <item name="android:textAppearance">@style/TextAppearance.AppCompat.Widget.Button.Inverse</item>
+    </style>
+
+    <style name="divider">
+        <item name="android:layout_height">@dimen/viewHeight</item>
+        <item name="android:layout_marginBottom">@dimen/marginQ</item>
+        <item name="android:background">@color/colorPrimary</item>
+    </style>
+</resources>

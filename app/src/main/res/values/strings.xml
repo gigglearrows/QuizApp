@@ -1,0 +1,56 @@
+<resources>
+    <string name="app_name">QuizApp</string>
+    <string name="question">Question %1$d</string>
+
+    <string name="q1">What is the capital of Norway?</string>
+    <string name="a1">Oslo</string>
+    <string name="a1_1">Bergen</string>
+    <string name="a1_2">Trondheim</string>
+
+    <string name="q2">Which ingredients can you find in a Long Island Iced Tea cocktail?\n(Correct: 1p. Wrong: -1p)</string>
+    <string name="a2_1">Sprite</string>
+    <string name="a2_2">Coca-Cola</string>
+    <string name="a2_3">Tequila</string>
+    <string name="a2_4">Orange liqueur</string>
+    <string name="a2_5">Peach liqueur</string>
+    <string name="a2_6">Rum</string>
+    <string name="a2_7">Iced Tea</string>
+
+    <string name="q3">Phobos and Diemos are the moons of which planet in our solar system?</string>
+    <string name="a3">Mars</string>
+    <string name="a3_1">Jupiter</string>
+    <string name="a3_2">Saturn</string>
+
+    <string name="q4">South Africa is divided into how many provinces?</string>
+    <string name="a4">Nine</string>
+    <string name="a4_1">Five</string>
+    <string name="a4_2">Twelve</string>
+
+    <string name="q5">An agal is worn on which part of the body?</string>
+    <string name="a5">Head</string>
+    <string name="a5_1">Wrist</string>
+    <string name="a5_2">Neck</string>
+
+    <string name="q6">What is the name of the python in Rudyard Kipling’s novel The Jungle Book?</string>
+    <string name="a6">Kaa</string>
+    <string name="q6_hint">Name of Python</string>
+
+    <string name="q7">In medicine what does MRI stand for?</string>
+    <string name="a7">Magnetic Resonance Imaging</string>
+    <string name="a7_1">Median Resolute Irregularity</string>
+    <string name="a7_2">Masked Radio Involvement</string>
+
+    <string name="q8">Brassica Rapa is the Latin name of which vegetable?</string>
+    <string name="a8">Turnip</string>
+    <string name="a8_1">Cabbage</string>
+    <string name="a8_2">Potato</string>
+    <string name="a8_3">Carrot</string>
+
+    <string name="submit">Submit</string>
+    <string name="resultsHeader">Results</string>
+
+    <string name="startTitle">Choose your Quiz</string>
+    <string name="btn_true">True</string>
+    <string name="btn_false">False</string>
+
+</resources>

@@ -1,0 +1,80 @@
+{
+  "questions": [
+    {
+      "q": "Lightning never strikes in the same place twice.",
+      "a": "0"
+    },
+    {
+      "q": "Napoleon Bonaparte was extremely short.",
+      "a": "0"
+    },
+    {
+      "q": "If you cut an earthworm in half, both halves can regrow their body.",
+      "a": "0"
+    },
+    {
+      "q": "Goldfish only have a memory of three seconds.",
+      "a": "0"
+    },
+    {
+      "q": "Your fingernails and hair keep growing after you die.",
+      "a": "0"
+    },
+    {
+      "q": "If you cry in space the tears just stick to your face.",
+      "a": "1"
+    },
+    {
+      "q": "There are more cells of bacteria in your body than there are human cells.",
+      "a": "1"
+    },
+    {
+      "q": "Humans can distinguish between over a trillion different smells.",
+      "a": "1"
+    },
+    {
+      "q": "Birds are dinosaurs.",
+      "a": "1"
+    },
+    {
+      "q": "Buzz Aldrin was the first man to urinate on the moon.",
+      "a": "1"
+    },
+    {
+      "q": "It costs the U.S. Mint more to make pennies and nickels than the coins are actually worth.",
+      "a": "1"
+    },
+    {
+      "q": "Adults have fewer bones than babies do.",
+      "a": "1"
+    },
+    {
+      "q": "Water spirals down the plughole in opposite directions in the northern and southern hemispheres.",
+      "a": "0"
+    },
+    {
+      "q": "The top of the Eiffel Tower leans away from the sun.",
+      "a": "1"
+    },
+    {
+      "q": "Humans can’t breathe and swallow at the same time.",
+      "a": "1"
+    },
+    {
+      "q": "The owner of the company that makes Segways died after accidentally driving his Segway off a cliff.",
+      "a": "1"
+    },
+    {
+      "q": "Drinking alcohol kills brain cells.",
+      "a": "0"
+    },
+    {
+      "q": "Twinkies have an infinite shelf life.",
+      "a": "0"
+    },
+    {
+      "q": "The popular image of Santa Claus – chubby, bearded, in red and white clothes – was invented by Coca-Cola for an ad campaign.",
+      "a": "0"
+    }
+  ]
+}

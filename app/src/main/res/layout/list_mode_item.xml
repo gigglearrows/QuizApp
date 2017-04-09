@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/label"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    android:textSize="16sp"
+    android:drawableRight="@drawable/ic_chevron_right_black_24dp"
+    android:drawableEnd="@drawable/ic_chevron_right_black_24dp"
+    android:background="@drawable/listview_card_bg_selector"
+    android:textStyle="bold" >
+</TextView>
