@@ -1,9 +1,7 @@
 package com.borgotek.quizapp;
 
 import android.app.Activity;
-import android.content.DialogInterface;
 import android.os.Bundle;
-import android.support.v7.app.AlertDialog;
 import android.support.v7.app.AppCompatActivity;
 import android.view.MotionEvent;
 import android.view.View;
@@ -13,6 +11,7 @@ import android.widget.EditText;
 import android.widget.RadioButton;
 import android.widget.RadioGroup;
 import android.widget.ScrollView;
+import android.widget.Toast;
 
 public class StuffActivity extends AppCompatActivity {
     RadioButton correctRadio1;
@@ -116,26 +115,8 @@ public class StuffActivity extends AppCompatActivity {
         if (correctRadio5.isChecked()) correctAnswerCount++;
         if (correctRadio6.isChecked()) correctAnswerCount++;
 
-        AlertDialog.Builder winDialogBuilder = new AlertDialog.Builder(StuffActivity.this);
-        winDialogBuilder.setCancelable(false)
-                .setTitle(getString(R.string.resultsHeader))
-                .setMessage("You have answered correctly on " + correctAnswerCount + "/11 questions")
-                .setPositiveButton("Quit", new DialogInterface.OnClickListener() {
-                    @Override
-                    public void onClick(DialogInterface dialog, int which) {
-                        finish();
-                    }
-                })
-                .setNegativeButton("Try again", new DialogInterface.OnClickListener() {
-                    @Override
-                    public void onClick(DialogInterface dialog, int which) {
-                        reset();
-                    }
-                });
-        AlertDialog winDialog = winDialogBuilder.create();
-        winDialog.show();
-
-        //Toast.makeText(this, "You have answered correctly on " + correctAnswerCount + "/11 questions", Toast.LENGTH_SHORT).show();
+        Toast.makeText(this, "You have answered correctly on " + correctAnswerCount + "/11 questions", Toast.LENGTH_SHORT).show();
+        reset();
     }
 
     private void reset() {
